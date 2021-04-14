@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">MVP</string>
+    <string name="ok">OK</string>
+    
+    //Errors or Warning
+    <string name="network_not_available">No Internet Connection</string>
+    <string name="network_not_available_message">Please check your internet connection and try again.</string>
+    <string name="notice">Notice</string>
+    <string name="generic_error_message">Something went wrong. Please try again later.</string>
+    <string name="trending">TRENDING</string>
+    <string name="genre">GENRE</string>
+    <string name="popular">POPULAR</string>
+    <string name="top_rated">TOP RATED</string>
+    <string name="upcoming">UPCOMING</string>
+    <string name="series_cast">Series Cast</string>
+    <string name="video">Video</string>
+    <string name="comments">Comments</string>
+    <string name="recommendations">Recommendations</string>
+    <string name="your_rate">Your Rate</string>
+
+</resources>

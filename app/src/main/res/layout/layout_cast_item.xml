@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="70dp"
+        android:layout_height="100dp"
+        app:cardElevation="16dp">
+
+        <com.tholh.mvp.component.LoadableImageView
+            android:id="@+id/img_cast"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_marginTop="4dp"
+        android:id="@+id/tv_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:lines="1"
+        android:maxLines="1"
+        android:text="Zack Snyder"
+        android:textColor="#4A4A4A"
+        android:textSize="12sp" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_position"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:lines="1"
+        android:maxLines="1"
+        android:text="Director"
+        android:textColor="#9B9B9B"
+        android:textSize="12sp" />
+</LinearLayout>

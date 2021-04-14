@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tholh.mvp.component.FragmentView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/fragment_content_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <com.tholh.mvp.component.ActionBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="8dp"
+            android:minHeight="?attr/actionBarSize">
+
+            <ImageView
+                android:layout_marginStart="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start|center_vertical"
+                android:src="@drawable/ic_arrow_back_white" />
+
+        </com.tholh.mvp.component.ActionBar>
+    </FrameLayout>
+
+</com.tholh.mvp.component.FragmentView>
